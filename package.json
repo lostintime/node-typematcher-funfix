@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "funfix-effect": "^6.2.0",
-    "typematcher": "^0.2.3"
+    "typematcher": "^0.3.0"
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
