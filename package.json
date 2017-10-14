@@ -25,10 +25,16 @@
     "clean": "rm -R dist/",
     "build": "tsc"
   },
+  "dependencies": {
+    "funfix-effect": "^6.2.0",
+    "typematcher": "^0.2.3"
+  },
   "devDependencies": {
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.43",
     "chai": "^4.1.2",
+    "funfix-core": "^6.2.0",
+    "funfix-exec": "^6.2.0",
     "mocha": "^4.0.1",
     "typescript": "^2.5.3"
   }
