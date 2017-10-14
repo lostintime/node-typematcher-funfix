@@ -6,10 +6,11 @@ import {IO} from "funfix-effect";
  * this can be used to pre-build matchers and save some CPU cycles
  */
 export function matchWith<R>(...cases: MatchCase<R>[]): (val: any) => IO<R> {
+  // Prepare matcher
+  const matcher = matchStrictWith(...cases);
+
   return function value(val: any): IO<R> {
-    return IO.once(() => {
-      return matchStrictWith(...cases)(val);
-    });
+    return IO.once(() => matcher(val));
   }
 }
 
