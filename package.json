@@ -1,0 +1,35 @@
+{
+  "name": "typematcher-funfix",
+  "author": "lostintime",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "typematcher funfix binding - match lazily to IO",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "keywords": [
+    "TypeScript",
+    "typematch",
+    "pattern matching",
+    "type safe",
+    "funfix"
+  ],
+  "bugs": {
+    "url": "https://github.com/lostintime/node-typematcher-funfix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostintime/node-typematcher-funfix.git"
+  },
+  "scripts": {
+    "test": "tsc && mocha \"dist/test/\"",
+    "clean": "rm -R dist/",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "typescript": "^2.5.3"
+  }
+}
