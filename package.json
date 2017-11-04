@@ -1,7 +1,7 @@
 {
   "name": "typematcher-funfix",
   "author": "lostintime",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "description": "typematcher funfix binding - match lazily to IO",
   "main": "dist/lib/index.js",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "funfix-effect": "^6.2.1",
-    "typematcher": "^0.4.0"
+    "typematcher": "^0.4.1"
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
@@ -36,6 +36,6 @@
     "funfix-core": "^6.2.1",
     "funfix-exec": "^6.2.1",
     "mocha": "^4.0.1",
-    "typescript": "^2.5.3"
+    "typescript": "^2.6.1"
   }
 }
