@@ -10,17 +10,8 @@
 
 export * from "typematcher/dist/lib/matchers"
 export {
-  CaseMatch,
-  CaseMiss,
-  CaseResult,
   MatchCase,
   caseWhen,
-  caseAny,
-  caseDefault,
-  caseId,
-  caseThrow
+  caseDefault
 } from "typematcher/dist/lib/match-dsl"
-import { MatchCase, matchWith as matchStrictWith } from "typematcher"
-import { IO } from "funfix-effect"
-
 export * from "./match-dsl"

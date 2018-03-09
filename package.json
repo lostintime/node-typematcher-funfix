@@ -23,21 +23,21 @@
   "scripts": {
     "test": "tsc && mocha \"dist/test/\"",
     "lint": "tslint --project tsconfig.json",
-    "clean": "rm -R dist/",
+    "clean": "([ -e ./dist ] && rm -R ./dist) || true",
     "build": "tsc"
   },
   "dependencies": {
-    "funfix-effect": "^6.2.2",
-    "typematcher": "^0.4.2"
+    "funfix-effect": "^7.0.1",
+    "typematcher": "^0.7.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.8",
-    "@types/mocha": "^2.2.44",
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "tslint": "^5.8.0",
+    "mocha": "^5.0.4",
+    "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
-    "tslint-eslint-rules": "^4.1.1",
-    "typescript": "^2.6.2"
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.7.2"
   }
 }
