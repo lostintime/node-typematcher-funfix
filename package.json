@@ -1,7 +1,7 @@
 {
   "name": "typematcher-funfix",
   "author": "lostintime",
-  "version": "0.1.4",
+  "version": "0.7.0",
   "license": "MIT",
   "description": "typematcher funfix binding - match lazily to IO",
   "main": "dist/lib/index.js",
